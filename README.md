@@ -11,7 +11,7 @@ An [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server that 
 Connect any MCP-compatible client to the hosted endpoint:
 
 ```
-https://yyc-odata-mcp.baobabtech.app/mcp
+https://calgary-open-data.baobabtech.app/mcp
 ```
 
 ### Run locally with npx
@@ -73,13 +73,13 @@ All examples below use the hosted endpoint. Replace the URL with `http://localho
 **Settings > Connectors > Add custom connector**, enter:
 
 ```
-https://yyc-odata-mcp.baobabtech.app/mcp
+https://calgary-open-data.baobabtech.app/mcp
 ```
 
 ### Claude Code
 
 ```bash
-claude mcp add --transport http calgary-open-data https://yyc-odata-mcp.baobabtech.app/mcp
+claude mcp add --transport http calgary-open-data https://calgary-open-data.baobabtech.app/mcp
 ```
 
 ### Cursor
@@ -90,7 +90,7 @@ In `.cursor/mcp.json`:
 {
   "mcpServers": {
     "calgary-open-data": {
-      "url": "https://yyc-odata-mcp.baobabtech.app/mcp"
+      "url": "https://calgary-open-data.baobabtech.app/mcp"
     }
   }
 }
@@ -101,7 +101,7 @@ In `.cursor/mcp.json`:
 **Settings > Apps & Connectors > Advanced settings**, enable **Developer mode**, click **Create**, enter:
 
 ```
-https://yyc-odata-mcp.baobabtech.app/mcp
+https://calgary-open-data.baobabtech.app/mcp
 ```
 
 ### npx (stdio) for any MCP client

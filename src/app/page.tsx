@@ -1,4 +1,4 @@
-const HOSTED_URL = "https://yyc-odata-mcp.baobabtech.app";
+const HOSTED_URL = "https://calgary-open-data.baobabtech.app";
 
 export default function Home() {
   return (
