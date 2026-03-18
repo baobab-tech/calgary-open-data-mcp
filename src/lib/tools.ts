@@ -1,6 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { searchDatasets, getDatasetMetadata, queryDataset } from "./socrata.js";
+import { searchDatasets, getDatasetMetadata, queryDataset } from "./socrata";
 
 export const SERVER_NAME = "calgary-open-data-mcp";
 export const SERVER_VERSION = "1.0.0";
